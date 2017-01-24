@@ -1,0 +1,52 @@
+width: 1200px;
+margin: 0 auto;
+padding: 0;
+
+h1 {
+    font-family: 'TrendSansFour', 'Montserrat', sans-serif;
+    font-size: 4.5rem;
+    font-weight: 400;
+    color: #444444;
+    letter-spacing: -2px;
+    text-align: center;
+    margin: 1em 0 0.5em;
+
+    span {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 2.25rem;
+        letter-spacing: 2px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+p.tagline {
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    color: #222222;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 5.5rem 0;
+    padding: 0;
+    letter-spacing: 2px;
+}
+
+div.post {
+    margin-bottom: 4rem;
+
+    h3 {
+        margin: 0;
+        text-transform: uppercase;
+
+        a {
+            span.number {
+                color: #00B6F8;
+            }
+        }
+    }
+
+    div.tags {
+        margin-top: 0.5rem;
+    }
+}

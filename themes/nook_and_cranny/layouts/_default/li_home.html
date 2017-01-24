@@ -1,0 +1,11 @@
+<div class="{{ .Type }}">
+    <h3 class="post-title"><a href="{{ .Permalink }}"><span class="number">#{{ .Params.number }}</span> {{ .Title }}</a></h3>
+    <div class="tags">
+        <i class="icon-tag"></i>
+        {{ with.Params.tags }}
+            {{ delimit  . ", " }}
+        {{ end }}
+    </div>
+</div>
+
+<!--<p class="post-time"><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Format "January 2, 2006" }}</time></p>-->

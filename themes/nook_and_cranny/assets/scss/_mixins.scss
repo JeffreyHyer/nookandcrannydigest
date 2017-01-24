@@ -1,0 +1,13 @@
+/**
+ * Hides text (visually) from the user
+ * but still allows it to be selected (and searched)
+ * useful for representing text with an image but still
+ * allowing that text to be searchable and copy/paste-able.
+ */
+@mixin hidden-text() {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}

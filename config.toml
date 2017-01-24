@@ -1,0 +1,16 @@
+languageCode = "en-us"
+title = "The Nook & Cranny Digest"
+baseURL = "https://nookandcrannydigest.com/"
+theme = "nook_and_cranny"
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[params]
+    # author = "author"
+    description = "A compendium of trap doors, hidden rooms, and secret passageways"
+    keywords = ["jeffrey", "hyer", "nook", "cranny", "nooks", "crannies", "secret passageway", "hidden room", "secret compartment", "trap door"]
+    youtube_channel = "channel/UCJWm39D43IKBIJD67NtrUuA"
+    twitter_name = "nookandcrannydigest"
+    # google_analytics = "UA-xxxxxxxx"
+    # disqusShortname = ""

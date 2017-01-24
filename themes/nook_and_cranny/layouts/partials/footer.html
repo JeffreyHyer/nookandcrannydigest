@@ -1,0 +1,19 @@
+<footer>
+    <div class="social">
+        <p>
+            {{ with .Site.Params.youtube_channel }}
+                <a href="https://youtube.com/{{ . }}" title="Check out our YouTube channel" target="_blank"><i class="icon-youtube"><span>Check out our YouTube channel</span></i></a>
+            {{ end }}
+
+            <a href="{{ .RSSLink }}" title="Subscribe via RSS"><i class="icon-rss"><span>Subscribe via RSS</span></i></a>
+        </p>
+    </div>
+
+    <div class="curation">
+        <p>Curated with <i class="icon-heart" title="passion"><span>passion</span></i> in <i class="icon-utah" title="Utah"><span>Utah</span></i></p>
+    </div>
+
+    <div class="poweredby">
+        <p>Powered by <a href="http://gohugo.io/">Hugo<a/></p>
+    </div>
+</footer>

@@ -1,0 +1,45 @@
+<article class="{{ .Type }}">
+	<header>
+        <h3>{{ .Title }}</h3>
+    </header>
+
+    <section>
+        {{ .Content }}
+    </section>
+
+    <hr>
+
+    <footer>
+        <section>
+            {{ if isset .Params "author" }}
+                <p>Words by {{ index .Params "author" }}</p>
+            {{ else if isset .Site.Params "author" }}
+                <p>Words by {{ index .Site.Params "author" }}</p>
+            {{ end }}
+
+            <p class="f-post-time">
+                <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "January 2, 2006" }}</time>
+            </p>
+        </section>
+
+        <section>
+            <section>
+                <span>
+                    Share:
+                    <a href="http://twitter.com/share?text={{ .Title }}&amp;url={{ .Permalink }}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                        <i class="icon-twitter"><span>Share on Twitter</span></i>
+                    </a>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                        <i class="icon-facebook"><span>Share on Facebook</span></i>
+                    </a>
+                </span>
+            </section>
+
+            {{ with .Params.tags }}
+            	<span><i class="icon-tag"></i> {{ delimit  . ", " }}</span>
+            {{ end }}
+        </section>
+        
+        {{ partial "disqus.html" . }}
+    </footer>
+</article>

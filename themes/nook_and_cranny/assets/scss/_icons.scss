@@ -1,0 +1,25 @@
+// Icons
+i[class^="icon-"] span {
+    @include hidden-text();
+}
+
+.icon-heart {
+    color: #dc143c;
+}
+
+.icon-utah {
+    color: #3D7CBC;
+}
+
+.icon-rss {
+    color: #FF6600;
+}
+
+.icon-youtube,
+.icon-youtube-play {
+    color: #bb0000;
+}
+
+.icon-imdb {
+    color: #E6B91E;
+}
