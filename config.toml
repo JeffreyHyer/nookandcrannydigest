@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "The Nook & Cranny Digest"
-baseURL = "https://nookandcrannydigest.com/"
+baseURL = "https://www.nookandcrannydigest.com/"
 theme = "nook_and_cranny"
 buildDrafts = false
 buildFuture = false
