@@ -10,14 +10,18 @@
 
 html {
     font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
     color: #222222;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat";
+h1, h2, h3, h4 {
+    margin: 1.414rem 0 0.5rem;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
     color: #222222;
-    line-height: 1em;
-    margin-top: 0;
+    line-height: 1.2;
+    text-transform: uppercase;
     text-rendering: optimizeLegibility;
 
     a {
@@ -27,38 +31,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 3.33333rem;
-    margin-bottom: 0.495em;
-    text-transform: uppercase;
+    font-size: 2.441rem;
+    margin-top: 0;
 }
 
 h2 {
-    font-size: 2.6667rem;
-    margin-bottom: 0.61875em;
+    font-size: 1.953rem;
 }
 
 h3 {
-    font-size: 2rem;
-    margin-bottom: 0.825em;
+    font-size: 1.563rem;
 }
 
 h4 {
-    font-size: 1.3334rem;
-    margin-bottom: 1.2375em;
-}
-
-h5 {
-    font-size: 1.16667rem;
-    margin-bottom: 1.4142em;
-}
-
-h6 {
-    font-size: 1rem;
-    margin-bottom: 1.65em;
+    font-size: 1.25rem;
 }
 
 p {
     margin: auto auto 1.5em;
+    font-size: 1rem;
+    line-height: 1.45;
 }
 
 a {

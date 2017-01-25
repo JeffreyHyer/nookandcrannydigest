@@ -8,9 +8,9 @@ buildExpired = false
 
 [params]
     # author = "author"
-    description = "A compendium of trap doors, hidden rooms, and secret passageways"
-    keywords = ["jeffrey", "hyer", "nook", "cranny", "nooks", "crannies", "secret passageway", "hidden room", "secret compartment", "trap door"]
+    description = "A compendium of trap doors, hidden rooms, and secret passageways."
+    keywords = ["nook", "cranny", "nooks", "crannies", "secret passageway", "hidden room", "secret compartment", "trap door"]
     youtube_channel = "channel/UCJWm39D43IKBIJD67NtrUuA"
-    twitter_name = "nookandcrannydigest"
+    # twitter_name = "nookandcrannydigest"
     # google_analytics = "UA-xxxxxxxx"
     # disqusShortname = ""

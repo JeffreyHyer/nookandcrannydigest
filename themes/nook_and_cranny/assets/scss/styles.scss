@@ -12,9 +12,14 @@
 
 @import "./typography";
 @import "./icons";
+@import "./tags";
 
 body.home {
     @import "./pages/home";
+}
+
+body.post {
+    @import "./pages/post";
 }
 
 footer {
@@ -26,6 +31,10 @@ footer {
         a {
             text-decoration: none;
             margin-right: 0.5rem;
+
+            &:last-of-type {
+                margin-right: 0;
+            }
 
             i {
                 font-size: 2rem;

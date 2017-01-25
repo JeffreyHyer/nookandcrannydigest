@@ -1,0 +1,42 @@
+div.tags {
+    padding: 0.5em 0 0.5em 1em;
+
+    .tag {
+      font-size: 10px;
+      font-family: 'Lato', sans-serif;
+      text-transform: uppercase;
+      display: inline-block;
+      border-top: 1px solid;
+      border-right: 1px solid;
+      border-bottom: 1px solid;
+      border-radius: 0 0px 0px 0;
+      padding: 3px 5px 2px 3px;
+      position: relative;
+      margin-left: 15px;
+      margin-bottom: 10px;
+      background-color: #FFF;
+      letter-spacing: 1px;
+    }
+
+    .tag:before {
+      content: "";
+      position: absolute;
+      display: inline-block;
+      top: -1px;
+      left: -9px;
+      border-right: 9px solid #000000;
+      border-top: 9px solid transparent;
+      border-bottom: 9px solid transparent;
+    }
+
+    .tag:after {
+      content: "";
+      position: absolute;
+      display: inline-block;
+      left: -8px;
+      top: 0px;
+      border-right: 8px solid #FFF;
+      border-top: 8px solid transparent;
+      border-bottom: 8px solid transparent;
+    }
+}

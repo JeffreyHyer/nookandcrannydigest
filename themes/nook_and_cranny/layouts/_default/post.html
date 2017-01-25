@@ -1,13 +1,11 @@
 <article class="{{ .Type }}">
 	<header>
-        <h3>{{ .Title }}</h3>
+        <h1>{{ .Title }}</h1>
     </header>
 
     <section>
         {{ .Content }}
     </section>
-
-    <hr>
 
     <footer>
         <section>
@@ -39,7 +37,7 @@
             	<span><i class="icon-tag"></i> {{ delimit  . ", " }}</span>
             {{ end }}
         </section>
-        
+
         {{ partial "disqus.html" . }}
     </footer>
 </article>
