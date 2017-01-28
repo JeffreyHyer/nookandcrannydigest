@@ -5,6 +5,10 @@ theme = "nook_and_cranny"
 buildDrafts = false
 buildFuture = false
 buildExpired = false
+enableRobotsTXT = true
+
+[permalinks]
+    post = "/:slug"
 
 [params]
     # author = "author"
@@ -12,5 +16,9 @@ buildExpired = false
     keywords = ["nook", "cranny", "nooks", "crannies", "secret passageway", "hidden room", "secret compartment", "trap door"]
     youtube_channel = "channel/UCJWm39D43IKBIJD67NtrUuA"
     # twitter_name = "nookandcrannydigest"
-    # google_analytics = "UA-xxxxxxxx"
+    google_analytics = "UA-90994842-1"
     # disqusShortname = ""
+
+[blackfriday]
+    hrefTargetBlank = true
+    extensionsmask = ["autoHeaderIds"]

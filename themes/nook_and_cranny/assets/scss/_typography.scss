@@ -1,11 +1,11 @@
 @font-face {
     font-family: "TrendSansFour";
-    src: url("//db.onlinewebfonts.com/t/33ca94f43a53fc634323a6fe191ffd64.eot");
-    src: url("//db.onlinewebfonts.com/t/33ca94f43a53fc634323a6fe191ffd64.eot?#iefix") format("embedded-opentype"),
-         url("//db.onlinewebfonts.com/t/33ca94f43a53fc634323a6fe191ffd64.woff2") format("woff2"),
-         url("//db.onlinewebfonts.com/t/33ca94f43a53fc634323a6fe191ffd64.woff") format("woff"),
-         url("//db.onlinewebfonts.com/t/33ca94f43a53fc634323a6fe191ffd64.ttf") format("truetype"),
-         url("//db.onlinewebfonts.com/t/33ca94f43a53fc634323a6fe191ffd64.svg#TrendSansW00-Four") format("svg");
+    src: url("/fonts/trend-sans-four.eot");
+    src: url("/fonts/trend-sans-four.eot?#iefix") format("embedded-opentype"),
+         url("/fonts/trend-sans-four.woff2") format("woff2"),
+         url("/fonts/trend-sans-four.woff") format("woff"),
+         url("/fonts/trend-sans-four.ttf") format("truetype"),
+         url("/fonts/trend-sans-four.svg#TrendSansW00-Four") format("svg");
 }
 
 html {
@@ -16,7 +16,7 @@ html {
 }
 
 h1, h2, h3, h4 {
-    margin: 1.414rem 0 0.5rem;
+    margin: 1em 0 0.75em;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
     color: #222222;
@@ -31,16 +31,16 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    font-size: 2.441rem;
+    font-size: 2.25rem;
     margin-top: 0;
 }
 
 h2 {
-    font-size: 1.953rem;
+    font-size: 1.75rem;
 }
 
 h3 {
-    font-size: 1.563rem;
+    font-size: 1.5rem;
 }
 
 h4 {
@@ -50,7 +50,7 @@ h4 {
 p {
     margin: auto auto 1.5em;
     font-size: 1rem;
-    line-height: 1.45;
+    line-height: 1.45rem;
 }
 
 a {

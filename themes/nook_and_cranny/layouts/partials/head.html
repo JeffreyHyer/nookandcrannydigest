@@ -1,13 +1,10 @@
 <head>
     {{ partial "meta.html" . }}
 
-    <title>{{ if .IsPage }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
-
-    <!--<link rel="canonical" href="{{ .Site.BaseURL }}" />-->
+    <title>{{ if .IsPage }}#{{ .Params.number }} {{ .Title }} | {{ end }}{{ .Site.Title }}</title>
 
     <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ .Site.RSSLink }}">
 
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:400|Montserrat:700">
     <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/style.min.css">
-    <link rel="stylesheet" type="text/css" href="//i.icomoon.io/public/temp/aba1603ea3/SecretRooms/style.css">
 </head>

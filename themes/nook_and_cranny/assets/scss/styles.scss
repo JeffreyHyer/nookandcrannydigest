@@ -26,11 +26,13 @@ footer {
     text-align: center;
     margin-top: 4rem;
     margin-bottom: 2rem;
+    border-top: 2px solid #EEE;
+    padding-top: 4rem;
 
     div.social {
         a {
             text-decoration: none;
-            margin-right: 0.5rem;
+            margin-right: 2rem;
 
             &:last-of-type {
                 margin-right: 0;
@@ -57,6 +59,8 @@ footer {
     }
 
     div.poweredby {
-        font-size: 0.625rem;
+        p {
+            font-size: 0.625rem;
+        }
     }
 }

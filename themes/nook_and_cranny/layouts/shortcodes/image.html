@@ -1,0 +1,6 @@
+<div class="image-wrapper">
+    <a href="{{ .Site.BaseURL }}{{ .Get "src" }}" target="_blank">
+        <img src="{{ .Get "src" }}" {{ with .Get "caption" | default "" }}alt="{{ . }}" title="{{ . }}"{{ end }}>
+        <span class="image-caption {{ .Get "caption-style" | default "dark" }}">{{ .Get "caption" | default "" }}</span>
+    </a>
+</div>

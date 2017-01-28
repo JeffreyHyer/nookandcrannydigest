@@ -5,10 +5,8 @@
     <body class="post">
         {{ partial "header.html" . }}
 
-        <main class="content" role="main">
-        	<div class="container">
-        		{{ .Render "post" }}
-        	</div>
+        <main role="main">
+        	{{ .Render "post" }}
         </main>
 
         {{ partial "footer.html" . }}

@@ -1,7 +1,8 @@
 <div class="{{ .Type }}">
     <h3 class="post-title"><a href="{{ .Permalink }}"><span class="number">#{{ .Params.number }}</span> {{ .Title }}</a></h3>
+
     <div class="tags">
-        {{ range .Params.tags }}
+        {{ range sort .Params.tags }}
             <span class="tag">{{ . }}</span>
         {{ end }}
     </div>
