@@ -63,10 +63,10 @@ video. Enjoy!
 ## Images
 
 {{< gallery >}}
-    {{< image src="/images/1/1.jpg" caption="The entrance (closed) as seen from the office/study. Entrance is below the right-most wall sconce." >}}
-    {{< image src="/images/1/2.jpg" caption="Close up of the wainscoting entrance as it is about to be opened. The panel slides to the right with a little force applied.">}}
-    {{< image src="/images/1/3.jpg" caption="The entrance after being opened, visible is the walls of the crawl space/tunnel into the hidden room." >}}
-    {{< image src="/images/1/4.jpg" caption="The other end of the tunnel as it enters the hidden room which is rather dimly lit." >}}
-    {{< image src="/images/1/5.jpg" caption="A wide-angle view of the entire hidden room from opposite the entrance. The entrance is to the left of the closet towards the floor." >}}
-    {{< image src="/images/1/6.jpg" caption="Another view of the tunnel entrance from within the hidden room, this time with better lighting." >}}
+    {{< image src="images/1/1.jpg" caption="The entrance (closed) as seen from the office/study. Entrance is below the right-most wall sconce." >}}
+    {{< image src="images/1/2.jpg" caption="Close up of the wainscoting entrance as it is about to be opened. The panel slides to the right with a little force applied.">}}
+    {{< image src="images/1/3.jpg" caption="The entrance after being opened, visible is the walls of the crawl space/tunnel into the hidden room." >}}
+    {{< image src="images/1/4.jpg" caption="The other end of the tunnel as it enters the hidden room which is rather dimly lit." >}}
+    {{< image src="images/1/5.jpg" caption="A wide-angle view of the entire hidden room from opposite the entrance. The entrance is to the left of the closet towards the floor." >}}
+    {{< image src="images/1/6.jpg" caption="Another view of the tunnel entrance from within the hidden room, this time with better lighting." >}}
 {{< /gallery >}}
