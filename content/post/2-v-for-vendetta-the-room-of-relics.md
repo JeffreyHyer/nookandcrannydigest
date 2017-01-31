@@ -26,6 +26,8 @@ this hidden room. The wood paneling on the interior of the room combined with
 the brick as well as the archways is fantastic and the unconventional means of
 entry via twisting a particular wine bottle is absolutely brilliant!
 
+## Video
+
 {{< youtube id="8cJzMwfTcK8" autoplay="false"  >}}
 
 ## Images
