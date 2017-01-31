@@ -1,11 +1,12 @@
 {
     "title":        "[SOURCE_TITLE]: [TYPE OF HIDDEN ROOM/TRAP DOOR/SECERT PASSAGEWAY]",
-    "description":  "",
+    "description":  "The Nook & Cranny Digest - #[##] - [TITLE]",
     "number":       "00",
-    "date":         "2017-01-01",
+    "date":         "2017-01-27T20:00:00-07:00",
     "tags":         [],
     "slug":         "[NUMBER]-[SLUGIFIED-TITLE].html",
     "imdb":         "ttXXXXXXX",
+    "youtube":      "[YOUTUBE ID]",
     "draft":        "true",
     "type":         "post",
     "markup":       "md"
@@ -15,7 +16,7 @@ A little introduction that tells the reader a little about what they're about to
 Include some context for the video clip if necessary and point out some humorous
 anecdotes if you see fit.
 
-{{< youtube id="w7Ft2ymGmfc" autoplay="false"  >}}
+{{< youtube id="" autoplay="false"  >}}
 
 ## Image Gallery
 
