@@ -8,7 +8,7 @@
     "title":        "CSI: The Hidden Room Behind The Wainscoting",
     "type":         "post",
     "draft":        "false",
-    "tags":         ["wall entrance", "wainscoting", "secret room", "hidden entrance", "tunnel", "crawl space", "safe room", "tv"],
+    "tags":         ["wall entrance", "wainscoting", "secret room", "tunnel", "crawl space", "safe room", "tv"],
     "date":         "2017-01-27T20:00:00-07:00"
 }
 

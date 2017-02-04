@@ -1,0 +1,10 @@
+#!/bin/bash
+
+files=$(ls | grep "png")
+
+i=1
+for filename in $files
+do
+	convert "$filename" "$i.jpg"
+	((i++))
+done

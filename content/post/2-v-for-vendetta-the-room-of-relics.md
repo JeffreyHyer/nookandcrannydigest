@@ -6,7 +6,7 @@
     "draft":        "false",
     "imdb":         "tt0434409",
     "youtube":      "8cJzMwfTcK8",
-    "tags":         ["movie", "wine cellar", "secret room", "hidden entrance", "wall entrance"],
+    "tags":         ["movie", "wine cellar", "secret room", "wall entrance"],
     "date":         "2017-01-30T13:00:00-07:00",
     "description":  "The Nook & Cranny Digest - #2 - V for Vendetta: The Relic Room",
     "type":         "post"

@@ -1,4 +1,5 @@
-width: 984px;
+width: 100%;
+min-width: 1023px;
 margin: 0 auto;
 padding: 0;
 
@@ -17,7 +18,7 @@ div#header {
             color: #333333;
             letter-spacing: 0px;
             text-align: center;
-            margin: 0.25em 0 0.5em;
+            margin: 0.75em 0 0.5em;
             text-transform: uppercase;
 
             span {
@@ -44,73 +45,131 @@ div#header {
 }
 
 article {
+    padding: 0 3rem;
+
     h1 {
         margin-top: 2em;
 
         span.number {
             display: inline-block;
-            width: 85px;
             color: #dc143c;
-            margin-left: -115px;
-            margin-right: 0.5em;
-            text-align: right;
+            margin-right: 0.75em;
+            text-align: left;
         }
+    }
+
+    h2, h3 {
+        margin-top: 3em;
     }
 
     p {
         text-align: justify;
     }
+}
 
-    div.image-wrapper {
-        width: 100%;
 
-        img {
-            width: 100%;
-        }
-
+/*
+    Phones/Small Handheld Devices
+ */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    div#header {
         a {
-            img {
-                cursor: zoom-in;
-            }
-
-            span.image-caption {
-                cursor: zoom-in;
+            span#title {
+                span {}
             }
         }
+
+        p.tagline {
+            font-size: 1.4em;
+            line-height: 1.5em;
+        }
+
+        // &:after {
+        //     display: block;
+        //     font-size: 2rem;
+        //     color: crimson;
+        //     content: 'Phone';
+        // }
     }
 
-    div.gallery {
-        width: 100%;
+    article {
+        padding: 0 3rem;
 
-        div.image-wrapper {
-            position: relative;
-            width: 48.5%;
-            display: inline-block;
-            margin-right: 2%;
-            margin-bottom: 1.25em;
+        h1 {
+            text-align: left;
 
-            &:nth-of-type(2n) {
-                margin-right: 0;
-            }
-
-            span.image-caption {
+            span.number {
                 display: block;
-                position: absolute;
-                bottom: 0.2em;
-                left: 0;
-                width: 100%;
-                margin: 0;
-                padding: 0.5em 0.75em;
-                font-size: 0.875rem;
-                color: white;
-                background-color: rgba(0, 0, 0, 0.75);
-                line-height: 1.4;
-
-                &.light {
-                    color: #222222;
-                    background-color: rgba(255, 255, 255, 0.75);
-                }
+                text-align: center;
+                width: auto;
+                color: #dc143c;
+                margin-left: 0;
+                margin-right: 0;
+                font-size: 3rem;
+                margin-bottom: 2rem;
             }
         }
+
+        p {
+            font-size: 2rem;
+            line-height: 3rem;
+        }
+    }
+}
+
+/*
+    Tablets - Portrait
+ */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    div#header {
+        a {
+            span#title {
+                span {}
+            }
+        }
+
+        p.tagline {
+            font-size: 0.9em;
+        }
+
+        // &:after {
+        //     display: block;
+        //     font-size: 2rem;
+        //     color: crimson;
+        //     content: 'Tablet - Portrait';
+        // }
+    }
+
+    article {
+        padding: 0 2rem;
+
+        h1 {
+            text-align: left;
+
+            span.number {
+                display: block;
+                text-align: center;
+                width: auto;
+                color: #dc143c;
+                margin-left: 0;
+                margin-right: 0;
+                font-size: 3rem;
+                margin-bottom: 2rem;
+            }
+        }
+
+        p {
+            font-size: 1.25rem;
+            line-height: 2rem;
+        }
+    }
+}
+
+/*
+    Large Desktops
+ */
+@media only screen and (min-width: 1200px) {
+    article {
+        padding: 0 12.5%;
     }
 }
