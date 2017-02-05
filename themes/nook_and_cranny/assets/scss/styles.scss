@@ -15,53 +15,105 @@
 @import "./tags";
 @import "./gallery";
 
-body.home {
-    @import "./pages/home";
-}
+body {
+    width: 100%;
+    min-width: 1023px;
+    margin: 0 auto;
+    padding: 0;
 
-body.post {
-    @import "./pages/post";
-}
+    &.home {
+        @import "./pages/home";
 
-footer {
-    text-align: center;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
-    border-top: 2px solid #EEE;
-    padding-top: 4rem;
+        div.feedback {
+            margin: 0 0 0 8rem;
+        }
+    }
 
-    div.social {
+    &.post {
+        @import "./pages/post";
+
+        div.feedback {
+            margin: 4rem 0 0 11rem;
+        }
+    }
+
+    div.feedback {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        border: 2px solid #DDD;
+        display: inline-block;
+        padding: 0.5rem 1rem;
+
         a {
+            color: #DC143C;
             text-decoration: none;
-            margin-right: 2rem;
+            display: inline-block;
 
-            &:last-of-type {
-                margin-right: 0;
+            div.icon {
+                display: inline-block;
+                margin-top: -2px;
+
+                i {
+                    font-size: 3rem;
+                    margin-right: 1rem;
+                    margin-left: 0.25rem;
+                    vertical-align: 2px;
+                }
             }
+
+            div.text {
+                display: inline-block;
+                letter-spacing: 0.5px;
+
+                span.blue {
+                    color: #3D7CBC;
+                }
+            }
+        }
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        border-top: 2px solid #EEE;
+        padding-top: 2rem;
+
+        div.social {
+            a {
+                text-decoration: none;
+                margin-right: 2rem;
+
+                &:last-of-type {
+                    margin-right: 0;
+                }
+
+                i {
+                    font-size: 2rem;
+                }
+            }
+        }
+
+        div.curation {
+            font-size: 0.875rem;
 
             i {
-                font-size: 2rem;
+                font-size: 1.125rem;
+                vertical-align: middle;
+
+                &.icon-utah {
+                    font-size: 1.375rem;
+                    vertical-align: -0.33em;
+                }
             }
         }
-    }
 
-    div.curation {
-        font-size: 0.875rem;
-
-        i {
-            font-size: 1.125rem;
-            vertical-align: middle;
-
-            &.icon-utah {
-                font-size: 1.375rem;
-                vertical-align: -0.33em;
+        div.poweredby {
+            p {
+                font-size: 0.625rem;
             }
-        }
-    }
-
-    div.poweredby {
-        p {
-            font-size: 0.625rem;
         }
     }
 }
