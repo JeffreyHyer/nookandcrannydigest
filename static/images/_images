@@ -1,10 +1,17 @@
 #!/bin/bash
 
-files=$(ls | grep "png")
+folders=$(ls)
 
-i=1
-for filename in $files
+for folder in $folders
 do
-	convert "$filename" "$i.jpg"
-	((i++))
+    i=1
+    files=$(ls $folder/ | grep "png")
+
+    for filename in $files
+    do
+        convert "$folder/$filename" "$folder/$i.jpg"
+        composite -gravity southeast -geometry 100%x100%+25+12 "~/Dropbox/The Nook & Cranny Digest/Image Watermark.png" "$folder/$i.jpg" "$folder/$i.jpg"
+        rm "$folder/$filename"
+        ((i++))
+    done
 done
