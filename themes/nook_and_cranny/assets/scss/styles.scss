@@ -23,17 +23,13 @@ body {
 
     &.home {
         @import "./pages/home";
-
-        div.feedback {
-            margin: 0 0 0 8rem;
-        }
     }
 
     &.post {
         @import "./pages/post";
 
         div.feedback {
-            margin: 4rem 0 0 11rem;
+            margin-top: 3rem;
         }
     }
 
@@ -42,14 +38,15 @@ body {
         line-height: 1.5rem;
         font-family: 'Montserrat', sans-serif;
         text-transform: uppercase;
-        border: 2px solid #DDD;
-        display: inline-block;
-        padding: 0.5rem 1rem;
+        display: block;
+        text-align: center;
 
         a {
             color: #DC143C;
             text-decoration: none;
             display: inline-block;
+            border: 2px solid #DDD;
+            padding: 0.5rem 1rem;
 
             div.icon {
                 display: inline-block;
@@ -113,6 +110,75 @@ body {
         div.poweredby {
             p {
                 font-size: 0.625rem;
+            }
+        }
+    }
+}
+
+
+
+/*
+    Phones/Small Handheld Devices
+ */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    body {
+        div.feedback {
+            font-size: 2rem;
+            line-height: 2.5rem;
+
+            a {
+                padding: 1rem 2rem;
+                border-width: 4px;
+
+                div.icon {
+                    i {
+                        font-size: 5rem;
+                    }
+                }
+
+                div.text {
+                    span.blue {}
+                }
+            }
+        }
+
+        footer {
+            div.social {
+                a {
+                    margin-left: 4rem;
+
+                    &:first-of-type {
+                        margin-left: 0;
+                    }
+
+                    i {
+                        font-size: 5rem;
+                    }
+                }
+            }
+
+            div.curation {
+                margin-top: 3rem;
+
+                p {
+                    font-size: 1.875rem;
+                }
+
+                i {
+                    font-size: 2.125rem;
+                    vertical-align: middle;
+
+                    &.icon-utah {
+                        font-size: 2.375rem;
+                        vertical-align: -0.3em;
+                    }
+                }
+            }
+
+            div.poweredby {
+                p {
+                    font-size: 1.625rem;
+                }
             }
         }
     }

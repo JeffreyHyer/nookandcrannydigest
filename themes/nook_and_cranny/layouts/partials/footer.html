@@ -16,6 +16,10 @@
                 <a href="https://youtube.com/{{ . }}" title="The Nook &amp; Cranny Digest on YouTube" target="_blank"><i class="icon-youtube"><span>The Nook &amp; Cranny Digest on YouTube</span></i></a>
             {{ end }}
 
+            {{ with .Site.Params.twitter_name }}
+                <a href="https://twitter.com/{{ . }}" title="Follow The Nook &amp; Cranny Digest on Twitter" target="_blank"><i class="icon-twitter"><span>Follow The Nook &amp; Cranny Digest on Twitter</span></i></a>
+            {{ end }}
+
             <a href="{{ .Site.RSSLink }}" title="Subscribe via RSS"><i class="icon-rss"><span>Subscribe via RSS</span></i></a>
         </p>
     </div>

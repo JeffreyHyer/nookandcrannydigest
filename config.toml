@@ -11,11 +11,10 @@ enableRobotsTXT = true
     post = "/:slug"
 
 [params]
-    # author = "author"
     description = "A compendium of trap doors, hidden rooms, and secret passageways."
     keywords = ["nook", "cranny", "nooks", "crannies", "secret passageway", "hidden room", "secret compartment", "trap door"]
     youtube_channel = "channel/UCJWm39D43IKBIJD67NtrUuA"
-    # twitter_name = "nookandcrannydigest"
+    twitter_name = "tnacd"
     google_analytics = "UA-90994842-1"
     # disqusShortname = ""
 

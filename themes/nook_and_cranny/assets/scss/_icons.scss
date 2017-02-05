@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('/fonts/icomoon.eot?hbvx1e');
-  src:  url('/fonts/icomoon.eot?hbvx1e#iefix') format('embedded-opentype'),
-        url('/fonts/icomoon.ttf?hbvx1e') format('truetype'),
-        url('/fonts/icomoon.woff?hbvx1e') format('woff'),
-        url('/fonts/icomoon.svg?hbvx1e#icomoon') format('svg');
+  src:  url('/fonts/icomoon.eot?i9xlbl');
+  src:  url('/fonts/icomoon.eot?i9xlbl#iefix') format('embedded-opentype'),
+        url('/fonts/icomoon.ttf?i9xlbl') format('truetype'),
+        url('/fonts/icomoon.woff?i9xlbl') format('woff'),
+        url('/fonts/icomoon.svg?i9xlbl#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -32,6 +32,9 @@
 }
 .icon-tag:before {
   content: "\f02c";
+}
+.icon-twitter:before {
+  content: "\f081";
 }
 .icon-rss:before {
   content: "\f143";
@@ -77,4 +80,8 @@ i[class^="icon-"] span {
 
 .icon-imdb {
     color: #E6B91E;
+}
+
+.icon-twitter {
+    color: #1DA1F3;
 }
