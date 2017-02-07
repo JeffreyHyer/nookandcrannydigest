@@ -54,6 +54,6 @@ will give you a solid overview of all the nooks and crannies.
 ### His - The Battleship Poster
 
 {{< gallery >}}
-    {{< image src="/images/3/13.jpg" caption="The collectable poster sized game mounted impressively on the wall." caption-style="dark" >}}
+    {{< image src="/images/3/13.jpg" caption="The collectible poster sized game mounted impressively on the wall." caption-style="dark" >}}
     {{< image src="/images/3/14.jpg" caption="And inside we find a convenient little shelf for storing things from prying eyes." caption-style="dark" >}}
 {{< /gallery >}}
