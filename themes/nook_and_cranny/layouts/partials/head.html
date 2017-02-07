@@ -1,7 +1,7 @@
 <head>
     {{ partial "meta.html" . }}
 
-    <title>{{ if .IsPage }}#{{ .Params.number }} {{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+    <title>{{ if .IsPage }}#{{ .Params.number }} {{ .Title }} &middot; {{ end }}{{ .Site.Title }}</title>
 
     <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ .Site.RSSLink }}">
 

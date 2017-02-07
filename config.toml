@@ -11,7 +11,7 @@ enableRobotsTXT = true
     post = "/:slug"
 
 [params]
-    description = "A compendium of trap doors, hidden rooms, and secret passageways."
+    description = "A compendium of trap doors, hidden rooms, and secret passageways"
     keywords = ["nook", "cranny", "nooks", "crannies", "secret passageway", "hidden room", "secret compartment", "trap door"]
     youtube_channel = "channel/UCJWm39D43IKBIJD67NtrUuA"
     twitter_name = "tnacd"

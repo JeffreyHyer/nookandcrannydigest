@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.nookandcrannydigest.com/3-mr-and-mrs-smith-his-and-hers-weapons-caches</loc>
+    <lastmod>2017-02-06T17:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.nookandcrannydigest.com/2-v-for-vendetta-the-relic-room</loc>
     <lastmod>2017-01-30T13:00:00-07:00</lastmod>
   </url>
@@ -12,20 +17,44 @@
   </url>
   
   <url>
+    <loc>https://www.nookandcrannydigest.com/tags/appliance/</loc>
+    <lastmod>2017-02-06T17:00:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.nookandcrannydigest.com/tags/crawl-space/</loc>
     <lastmod>2017-01-27T20:00:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://www.nookandcrannydigest.com/tags/floor-entrance/</loc>
+    <lastmod>2017-02-06T17:00:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.nookandcrannydigest.com/tags/kitchen/</loc>
+    <lastmod>2017-02-06T17:00:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.nookandcrannydigest.com/tags/movie/</loc>
-    <lastmod>2017-01-30T13:00:00-07:00</lastmod>
+    <lastmod>2017-02-06T17:00:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.nookandcrannydigest.com/tags/picture-frame/</loc>
+    <lastmod>2017-02-06T17:00:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.nookandcrannydigest.com/post/</loc>
-    <lastmod>2017-01-30T13:00:00-07:00</lastmod>
+    <lastmod>2017-02-06T17:00:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -37,7 +66,13 @@
   
   <url>
     <loc>https://www.nookandcrannydigest.com/tags/secret-room/</loc>
-    <lastmod>2017-01-30T13:00:00-07:00</lastmod>
+    <lastmod>2017-02-06T17:00:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.nookandcrannydigest.com/tags/shed/garage/</loc>
+    <lastmod>2017-02-06T17:00:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -48,7 +83,13 @@
   
   <url>
     <loc>https://www.nookandcrannydigest.com/</loc>
-    <lastmod>2017-01-30T13:00:00-07:00</lastmod>
+    <lastmod>2017-02-06T17:00:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.nookandcrannydigest.com/tags/trap-door/</loc>
+    <lastmod>2017-02-06T17:00:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -72,7 +113,13 @@
   
   <url>
     <loc>https://www.nookandcrannydigest.com/tags/wall-entrance/</loc>
-    <lastmod>2017-01-30T13:00:00-07:00</lastmod>
+    <lastmod>2017-02-06T17:00:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.nookandcrannydigest.com/tags/weapons-cache/</loc>
+    <lastmod>2017-02-06T17:00:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   
