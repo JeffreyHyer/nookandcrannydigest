@@ -12,7 +12,7 @@
     "type":         "post"
 }
 
-Let his be a lesson to you. If you're married you should probably invest in a
+Let this be a lesson to you. If you're married you should probably invest in a
 secret weapons cache hidden in or near your home, just in case your significant
 other turns out to be a hitman/hitwoman.
 
@@ -27,7 +27,7 @@ will give you a solid overview of all the nooks and crannies.
 
 {{< youtube id="NsZW30cBrW0" autoplay="false"  >}}
 
-## Image Gallery
+## Images
 
 ### His - The Tool Shed
 

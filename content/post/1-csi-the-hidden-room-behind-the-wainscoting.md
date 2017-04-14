@@ -47,7 +47,7 @@ featured here for other enthusiasts to enjoy. My plan (for what it's worth) is t
 publish a new post every week (more often if time permits, less if life gets in the way)
 
 Alright, alright, on to the video. Below is the scene from CSI that piqued my
-interest all those years ago. For context: the CSI team is invetigating the death
+interest all those years ago. For context: the CSI team is investigating the death
 of a wealthy Las Vegas businessman at his home. As you will see, there are a few
 oddities they struggle to explain (half a handprint on the rug against the wall)
 and this leads to the discovery of the mans hidden room. If you can get past the

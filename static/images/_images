@@ -10,7 +10,7 @@ do
     for filename in $files
     do
         convert "$folder/$filename" "$folder/$i.jpg"
-        composite -gravity southeast -geometry 100%x100%+25+12 "~/Dropbox/The Nook & Cranny Digest/Image Watermark.png" "$folder/$i.jpg" "$folder/$i.jpg"
+        composite -gravity southeast -geometry 100%x100%+25+12 "/Users/jeffreyhyer/Dropbox/The Nook & Cranny Digest/Image Watermark.png" "$folder/$i.jpg" "$folder/$i.jpg"
         rm "$folder/$filename"
         ((i++))
     done
