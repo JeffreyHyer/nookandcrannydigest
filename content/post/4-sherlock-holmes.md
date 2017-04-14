@@ -36,8 +36,8 @@ to be swung open.
 ## Images
 
 {{< gallery >}}
-    {{< image src="/images/4/1.jpg" caption="Sherlock Holmes sitting in front of the entrance to the secret room, suspicious of it's nature and what lies behind." caption-style="dark" >}}
-    {{< image src="/images/4/2.jpg" caption="Discovering the entrance through the ingenious use of what appears to be talcum powder to detect the draft flowing through the cracks around the entrance door." caption-style="dark" >}}
-    {{< image src="/images/4/3.jpg" caption="A close-up of the piece of wood trim that serves as the latch to open the entrance. There appears to be a series of mechanical operations occuring behind the wall to facilitate opening it." caption-style="dark" >}}
-    {{< image src="/images/4/4.jpg" caption="The entrance as viewed from within the secret room looking back through the short hallway towards the entrance and the bathroom beyond." caption-style="dark" >}}
+    {{< image src="images/4/1.jpg" caption="Sherlock Holmes sitting in front of the entrance to the secret room, suspicious of it's nature and what lies behind." caption-style="dark" >}}
+    {{< image src="images/4/2.jpg" caption="Discovering the entrance through the ingenious use of what appears to be talcum powder to detect the draft flowing through the cracks around the entrance door." caption-style="dark" >}}
+    {{< image src="images/4/3.jpg" caption="A close-up of the piece of wood trim that serves as the latch to open the entrance. There appears to be a series of mechanical operations occuring behind the wall to facilitate opening it." caption-style="dark" >}}
+    {{< image src="images/4/4.jpg" caption="The entrance as viewed from within the secret room looking back through the short hallway towards the entrance and the bathroom beyond." caption-style="dark" >}}
 {{< /gallery >}}

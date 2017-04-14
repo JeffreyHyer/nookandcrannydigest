@@ -35,6 +35,6 @@ entry via twisting a particular wine bottle is absolutely brilliant!
 The still shots just don't do this one justice, you really need to watch the video!
 
 {{< gallery >}}
-    {{< image src="/images/2/1.jpg" caption="The entrance to the \"Relic Room\" from the outside. Access is granted by twisting the wine bottle and pushing the door inward." caption-style="light" >}}
-    {{< image src="/images/2/2.jpg" caption="The entrance as viewed from inside the room looking out as the door is being opened." caption-style="light" >}}
+    {{< image src="images/2/1.jpg" caption="The entrance to the \"Relic Room\" from the outside. Access is granted by twisting the wine bottle and pushing the door inward." caption-style="light" >}}
+    {{< image src="images/2/2.jpg" caption="The entrance as viewed from inside the room looking out as the door is being opened." caption-style="light" >}}
 {{< /gallery >}}

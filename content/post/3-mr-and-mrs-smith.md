@@ -32,13 +32,13 @@ will give you a solid overview of all the nooks and crannies.
 ### His - The Tool Shed
 
 {{< gallery >}}
-    {{< image src="/images/3/12.jpg" caption="The inconspicuous tool shed as seen at night from the rear entrance of the house." caption-style="dark" >}}
-    {{< image src="/images/3/11.jpg" caption="A closer look at the shed from outside the front entrance." caption-style="dark" >}}
-    {{< image src="/images/3/1.jpg" caption="A view from inside the shed as the front entrance is opened." caption-style="dark" >}}
-    {{< image src="/images/3/2.jpg" caption="The floor entrance to the secret room is accessed by lifting a hinged aluminum diamond plate door." caption-style="dark" >}}
-    {{< image src="/images/3/3.jpg" caption="View from inside the small room below the tool shed." caption-style="dark" >}}
-    {{< image src="/images/3/4.jpg" caption="Another view from inside the room looking towards the entrance." caption-style="dark" >}}
-    {{< image src="/images/3/10.jpg" caption="The room is accessed by climbing down a set of stairs from the floor above. This time, the room has been emptied of it's contents." caption-style="dark" >}}
+    {{< image src="images/3/12.jpg" caption="The inconspicuous tool shed as seen at night from the rear entrance of the house." caption-style="dark" >}}
+    {{< image src="images/3/11.jpg" caption="A closer look at the shed from outside the front entrance." caption-style="dark" >}}
+    {{< image src="images/3/1.jpg" caption="A view from inside the shed as the front entrance is opened." caption-style="dark" >}}
+    {{< image src="images/3/2.jpg" caption="The floor entrance to the secret room is accessed by lifting a hinged aluminum diamond plate door." caption-style="dark" >}}
+    {{< image src="images/3/3.jpg" caption="View from inside the small room below the tool shed." caption-style="dark" >}}
+    {{< image src="images/3/4.jpg" caption="Another view from inside the room looking towards the entrance." caption-style="dark" >}}
+    {{< image src="images/3/10.jpg" caption="The room is accessed by climbing down a set of stairs from the floor above. This time, the room has been emptied of it's contents." caption-style="dark" >}}
 {{< /gallery >}}
 
 ### Hers - The Convection Oven
